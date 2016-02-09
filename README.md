@@ -178,6 +178,22 @@ For more information see:
 
 `facebookConnectPlugin.apiPost(String requestPath, Array permissions, JSONObject postData, Function success, Function failure)`
 
+```
+var params = {
+    message: 'Message text',
+    link: 'http://linktostuff.com/',
+    picture: 'http://linktostuff.com/image.jpg',
+    name: 'Name',
+    caption: 'Caption',
+    description: 'Description'
+};
+facebookConnectPlugin.apiPost('/me/feed', ['publish_actions'], params, function (response) {
+    // Success
+}, function(error){
+    // Error
+});
+```
+
 
 # Events
 
