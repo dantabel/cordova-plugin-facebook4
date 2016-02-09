@@ -176,8 +176,11 @@ For more information see:
 
 #### POST To The Graph API
 
-`facebookConnectPlugin.apiPost(String requestPath, Array permissions, JSONObject postData, Function success, Function failure)`
+```
+facebookConnectPlugin.apiPost(String requestPath, Array permissions, JSONObject postData, Function success, Function failure)
+```
 
+Example:
 ```
 var params = {
     message: 'Message text',
