@@ -1,3 +1,11 @@
+Dan Abel - I forked https://github.com/jeduan/cordova-plugin-facebook4 in order to API options for posting.
+
+I needed my app to POST to the FB Graph as well as GET. I have added a JavaScript method `apiPost`
+that called `graphApiPost` instead of `graphApi` on the native side. In iOS and Android I have just 
+duplicated the graphApi functionality and tweaked it. In the future it would be better to move a 
+lot of the common code into a common function but I'm in a rush.
+
+===========================================================================================
 # cordova-plugin-facebook4
 
 > Use Facebook SDK version 4 in Cordova projects
