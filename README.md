@@ -2,6 +2,7 @@
 This is a fork of [a fork](https://github.com/jeduan/cordova-plugin-facebook4) of the [official plugin for Facebook](https://github.com/Wizcorp/phonegap-facebook-plugin/). All functionality is exactly the same except an additional `apiPost` method has been added for POSTing to the Graph API.
 ______
 
+
 # cordova-plugin-facebook4
 
 > Use Facebook SDK version 4 in Cordova projects
