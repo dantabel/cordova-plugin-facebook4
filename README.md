@@ -1,5 +1,8 @@
 # cordova-plugin-facebook4
 
+## This is a fork of [a fork](https://github.com/jeduan/cordova-plugin-facebook4) of the [official plugin for Facebook](https://github.com/Wizcorp/phonegap-facebook-plugin/). All functionality is exactly the same except an additional `apiPost` method has been added for POSTing the the Graph API.
+______
+
 > Use Facebook SDK version 4 in Cordova projects
 
 ## Installation
@@ -169,6 +172,10 @@ For more information see:
 - Calling the Graph API - [https://developers.facebook.com/docs/ios/graph](https://developers.facebook.com/docs/ios/graph)
 - Graph Explorer - [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer)
 - Graph API - [https://developers.facebook.com/docs/graph-api/](https://developers.facebook.com/docs/graph-api/)
+
+#### POST To The Graph API
+
+`facebookConnectPlugin.apiPost(String requestPath, Array permissions, JSONObject postData, Function success, Function failure)`
 
 
 # Events
